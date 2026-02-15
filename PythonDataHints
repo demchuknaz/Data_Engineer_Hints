@@ -81,9 +81,6 @@ print(restaurants['cuisine_type'].unique())
 
 
 
-Na stronie internetowej nie znalazłem wagi ramy i widelca oraz prześwitu na opony dla tego modelu. Czy można gdzieś znaleźć te informacje, jeśli są dostępne?
-
-
 
 
 
