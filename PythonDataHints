@@ -1,3 +1,11 @@
+import pandas as pd
+import numpy as np
+
+
+# Creata a DataFrame with data from bank_marketing.csv file
+df = pd.read_csv("bank_marketing.csv")
+
+
 # Convert tire_sizes to integer
 ride_sharing['tire_sizes'] = ride_sharing['tire_sizes'].astype('int')
 
