@@ -88,7 +88,7 @@ inconsistent_inv = banking[~inv_equ]
 print("Number of inconsistent investments: ", inconsistent_inv.shape[0])
 
 
-#vStore today's date into today, and manually calculate customers' ages and store them in ages_manual.
+# Store today's date into today, and manually calculate customers' ages and store them in ages_manual.
 # Find all rows of banking where the age column is equal to ages_manual and then filter banking into consistent_ages and inconsistent_ages.
 
 # Store today's date and find ages
