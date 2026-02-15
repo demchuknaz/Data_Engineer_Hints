@@ -6,6 +6,10 @@ import numpy as np
 df = pd.read_csv("bank_marketing.csv")
 
 
+# Print summary statistics of user_type column
+print(ride_sharing['user_type'].describe())
+
+
 # Convert tire_sizes to integer
 ride_sharing['tire_sizes'] = ride_sharing['tire_sizes'].astype('int')
 
